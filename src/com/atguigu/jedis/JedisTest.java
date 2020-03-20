@@ -8,6 +8,8 @@ public class JedisTest {
 		Jedis jedis =new Jedis("192.168.192.100",6379);
 		String ping = jedis.ping();
 		System.out.println(ping);
+		System.out.println("关朝阳到此一游");
+		
 	}
 
 }
